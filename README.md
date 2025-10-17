@@ -68,6 +68,8 @@ RUN pip install → Installs dependencies listed in requirements.txt
 EXPOSE 8501 → Opens the port used by Streamlit
 
 CMD → Defines how to start the app when the container runs
+```
+
 
 ⚙️ Step 2: Build the Docker Image
 To build the image, run the following command inside the project folder:
