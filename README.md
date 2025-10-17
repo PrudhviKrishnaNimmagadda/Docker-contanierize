@@ -71,7 +71,7 @@ CMD → Defines how to start the app when the container runs
 ```
 
 
-⚙️ Step 2: Build the Docker Image
+ ## ⚙️ Step 2: Build the Docker Image
 To build the image, run the following command inside the project folder:
 
 bash
@@ -85,7 +85,7 @@ Project code (app.py)
 
 All necessary dependencies
 
-▶️ Step 3: Run the Docker Container
+## ▶️ Step 3: Run the Docker Container
 To start the container locally:
 
 bash
@@ -96,7 +96,7 @@ Then, open your browser and visit:
 
 Your Streamlit analytics app will run inside the Docker container — isolated and fully reproducible.
 
-☁️ Step 4: Push to Docker Hub
+## ☁️ Step 4: Push to Docker Hub
 Now, publish your image to Docker Hub for global access:
 
 🔹 Login to Docker
@@ -127,7 +127,7 @@ docker tag python-da prudhvikrishnanimmagadda/python-da:latest	Tag the image for
 docker push prudhvikrishnanimmagadda/python-da:latest	Push to Docker Hub
 docker pull prudhvikrishnanimmagadda/python-da:latest	Pull the image from Docker Hub
 
-🧠 Why Dockerization Matters
+## 🧠 Why Dockerization Matters
 Benefit	Description
 Portability	Run your app on any system with Docker — no setup conflicts.
 Consistency	Every environment (development, testing, production) behaves identically.
@@ -135,7 +135,7 @@ Isolation	Dependencies and runtime are isolated inside the container.
 Scalability	Deploy seamlessly across cloud and Kubernetes clusters.
 Speed	Containers start in seconds, unlike full virtual machines.
 
-🗂️ Repository Structure
+## 🗂️ Repository Structure
 bash
 Copy code
 Registration_Analysis_DA/
@@ -143,14 +143,14 @@ Registration_Analysis_DA/
 ├── app.py                # Main analytics script
 ├── Dockerfile            # Docker image configuration
 └── README.md             # Project documentation
-📜 Key Takeaways
+## 📜 Key Takeaways
 ✅ Docker ensures your Python project runs the same way everywhere.
 
 ✅ You can easily share your image via Docker Hub.
 
 ✅ Ideal for deploying Python analytics or ML projects to production.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Prudhvi Krishna Nimmagadda
 💻 Data Analytics & Cloud Enthusiast | Docker & Python Developer | Devops Enthusiast
 🐳 Docker Hub: prudhvikrishnanimmagadda
